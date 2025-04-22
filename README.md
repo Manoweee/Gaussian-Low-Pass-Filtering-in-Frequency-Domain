@@ -31,7 +31,7 @@ where *F<sub>filtered</sub>(u, v)* represents the filtered image in the frequenc
 The denoised image is reconstructed by applying the inverse Fourier transform to the filtered frequency-domain data:
 
 $$
-\( f_{\text{denoised}}(x, y) = \mathcal{F}^{-1} \left\{ F_{\text{filtered\_unshifted}} \right\} \)
+f_{\mathrm{denoised}}(x, y) = \mathcal{F}^{-1} \left( F_{\mathrm{filtered\_unshifted}} \right).
 $$
 
 where *f<sub>denoised</sub>(x, y)* is the resulting image in the spatial domain after filtering, and *F<sub>filtered\_unshifted</sub>* is the unshifted version of the filtered frequency-domain representation *F<sub>filtered</sub>(u, v)*.
